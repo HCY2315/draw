@@ -249,10 +249,41 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="mDRF8278MDf5MgQLR0Ej-110" value="一、关系表更新条件？&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;（删除旧关系，存入新关系 |&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;删除所有互通模型&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;）&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;1、路线批量上传（后端：通过创建接口判断&amp;nbsp; ）&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;2、修改互通类型字段，（后端：调用接口时，修改route.&lt;span style=&quot;text-wrap-mode: wrap; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;route_joint_type&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;）&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;3、设计路基路面（后端： 通过接口更新接口判断）&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="-340" y="360" width="440" height="90" as="geometry" />
+          <mxGeometry x="-410" y="390" width="440" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="yQ1eZP5P_Z0Rtkw1ZunJ-1" value="接口定义：&lt;div&gt;1、路线接口创建/修改/获取；&lt;/div&gt;&lt;div&gt;2、道路接口修改/获取；&lt;/div&gt;&lt;div&gt;3、连接部获取列表接口；&lt;/div&gt;&lt;div&gt;4、全量创建连接部接口；&lt;/div&gt;&lt;div&gt;5、路基路面建模接口；&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
-          <mxGeometry x="-350" y="520" width="600" height="170" as="geometry" />
+        <mxCell id="yQ1eZP5P_Z0Rtkw1ZunJ-1" value="接口定义：&lt;div&gt;1、路线接口创建/修改/获取；&lt;/div&gt;&lt;div&gt;2、道路接口修改/获取；&lt;/div&gt;&lt;div&gt;3、连接部获取列表接口；&lt;/div&gt;&lt;div&gt;4、全量创建连接部接口；&lt;/div&gt;&lt;div&gt;5、路基路面建模接口；&lt;/div&gt;&lt;div&gt;6、获取路基路面建模参数接口&lt;/div&gt;&lt;div&gt;7、一键建模接口；&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;fillColor=none;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-360" y="530" width="600" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="yQ1eZP5P_Z0Rtkw1ZunJ-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="yQ1eZP5P_Z0Rtkw1ZunJ-2" target="yQ1eZP5P_Z0Rtkw1ZunJ-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yQ1eZP5P_Z0Rtkw1ZunJ-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="yQ1eZP5P_Z0Rtkw1ZunJ-2" target="yQ1eZP5P_Z0Rtkw1ZunJ-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yQ1eZP5P_Z0Rtkw1ZunJ-2" value="路基路面建模" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="370" width="120" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="yQ1eZP5P_Z0Rtkw1ZunJ-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="yQ1eZP5P_Z0Rtkw1ZunJ-11" target="yQ1eZP5P_Z0Rtkw1ZunJ-5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="320" y="530" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yQ1eZP5P_Z0Rtkw1ZunJ-10" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="yQ1eZP5P_Z0Rtkw1ZunJ-6">
+          <mxGeometry x="-0.3074" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yQ1eZP5P_Z0Rtkw1ZunJ-5" value="" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="270" y="670" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yQ1eZP5P_Z0Rtkw1ZunJ-11" value="表中取关系" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="140" y="480" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yQ1eZP5P_Z0Rtkw1ZunJ-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="yQ1eZP5P_Z0Rtkw1ZunJ-14" target="yQ1eZP5P_Z0Rtkw1ZunJ-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yQ1eZP5P_Z0Rtkw1ZunJ-14" value="取忽略段" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="400" y="480" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
