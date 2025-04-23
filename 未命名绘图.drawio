@@ -633,7 +633,7 @@
         <mxCell id="yQ1eZP5P_Z0Rtkw1ZunJ-192" value="" style="edgeStyle=elbowEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;elbow=vertical;html=1;" edge="1" parent="1" source="yQ1eZP5P_Z0Rtkw1ZunJ-182" target="yQ1eZP5P_Z0Rtkw1ZunJ-191">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="yQ1eZP5P_Z0Rtkw1ZunJ-194" value="查询互通忽略段" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];rounded=1;" vertex="1" connectable="0" parent="yQ1eZP5P_Z0Rtkw1ZunJ-192">
+        <mxCell id="yQ1eZP5P_Z0Rtkw1ZunJ-194" value="查询互通忽略段（路数 &amp;gt; 2）" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];rounded=1;" vertex="1" connectable="0" parent="yQ1eZP5P_Z0Rtkw1ZunJ-192">
           <mxGeometry x="0.1592" y="1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
