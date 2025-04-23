@@ -371,8 +371,8 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="yQ1eZP5P_Z0Rtkw1ZunJ-45" value="组装所有参数&lt;div&gt;创建新关系&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;labelBackgroundColor=none;fillColor=#B2C9AB;strokeColor=#788AA3;fontColor=#46495D;fontSize=12;fontStyle=0;" vertex="1" parent="1">
-          <mxGeometry x="1883.94" y="1030" width="120" height="60" as="geometry" />
+        <mxCell id="yQ1eZP5P_Z0Rtkw1ZunJ-45" value="组装所有主线/单喇叭的参数&lt;div&gt;创建新关系&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;labelBackgroundColor=none;fillColor=#B2C9AB;strokeColor=#788AA3;fontColor=#46495D;fontSize=12;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry x="1845.91" y="1030" width="196.06" height="50" as="geometry" />
         </mxCell>
         <mxCell id="yQ1eZP5P_Z0Rtkw1ZunJ-64" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=none;strokeColor=#788AA3;fontColor=default;fontSize=12;fontStyle=0;" edge="1" parent="1" source="yQ1eZP5P_Z0Rtkw1ZunJ-48" target="yQ1eZP5P_Z0Rtkw1ZunJ-63">
           <mxGeometry relative="1" as="geometry">
@@ -407,7 +407,7 @@
           <mxGeometry x="1883.94" y="1160" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="yQ1eZP5P_Z0Rtkw1ZunJ-54" value="直接返回路线建模失败" style="whiteSpace=wrap;html=1;rounded=1;labelBackgroundColor=none;fillColor=#B2C9AB;strokeColor=#788AA3;fontColor=#46495D;fontSize=12;fontStyle=0;" vertex="1" parent="1">
-          <mxGeometry x="2166.65" y="1030" width="120" height="60" as="geometry" />
+          <mxGeometry x="2166.65" y="1025" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="yQ1eZP5P_Z0Rtkw1ZunJ-66" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=none;strokeColor=#788AA3;fontColor=default;fontSize=12;fontStyle=0;" edge="1" parent="1" source="yQ1eZP5P_Z0Rtkw1ZunJ-63" target="yQ1eZP5P_Z0Rtkw1ZunJ-65">
           <mxGeometry relative="1" as="geometry" />
@@ -664,16 +664,6 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="yQ1eZP5P_Z0Rtkw1ZunJ-324" style="edgeStyle=elbowEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;elbow=vertical;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="yQ1eZP5P_Z0Rtkw1ZunJ-228" target="yQ1eZP5P_Z0Rtkw1ZunJ-325">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1320" y="1030" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="yQ1eZP5P_Z0Rtkw1ZunJ-328" value="修改互通类型/无关系修改为3（其他）" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];rounded=1;fontSize=13;labelBackgroundColor=none;" vertex="1" connectable="0" parent="yQ1eZP5P_Z0Rtkw1ZunJ-324">
-          <mxGeometry x="0.2013" y="3" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="yQ1eZP5P_Z0Rtkw1ZunJ-228" value="判断是否需要重新计算关系" style="rhombus;whiteSpace=wrap;html=1;fontSize=12;fillColor=#B2C9AB;strokeColor=#788AA3;fontColor=#46495D;rounded=1;labelBackgroundColor=none;fontStyle=0;" vertex="1" parent="1">
           <mxGeometry x="1533.08" y="865" width="150.32" height="80" as="geometry" />
         </mxCell>
@@ -691,7 +681,7 @@
         <mxCell id="yQ1eZP5P_Z0Rtkw1ZunJ-241" value="结束" style="ellipse;whiteSpace=wrap;html=1;fontSize=12;fillColor=#B2C9AB;strokeColor=#788AA3;fontColor=#46495D;rounded=1;labelBackgroundColor=none;fontStyle=0;" vertex="1" parent="1">
           <mxGeometry x="1568.24" y="995" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="yQ1eZP5P_Z0Rtkw1ZunJ-243" value="1、非名字/互通类型的修改----&amp;gt;都需要重新计算关系" style="whiteSpace=wrap;html=1;fontSize=13;fillColor=#B2C9AB;strokeColor=#788AA3;fontColor=#46495D;rounded=1;labelBackgroundColor=none;fontStyle=1;dashed=1;align=left;direction=west;" vertex="1" parent="1">
+        <mxCell id="yQ1eZP5P_Z0Rtkw1ZunJ-243" value="1、非名字的修改----&amp;gt;都需要重新计算关系&lt;div&gt;2、计算范围（互通类型为主线/单喇叭）&lt;/div&gt;" style="whiteSpace=wrap;html=1;fontSize=13;fillColor=#B2C9AB;strokeColor=#788AA3;fontColor=#46495D;rounded=1;labelBackgroundColor=none;fontStyle=1;dashed=1;align=left;direction=west;" vertex="1" parent="1">
           <mxGeometry x="1150" y="715" width="260" height="160" as="geometry" />
         </mxCell>
         <mxCell id="yQ1eZP5P_Z0Rtkw1ZunJ-246" value="option" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;html=1;labelBackgroundColor=none;fillColor=#B2C9AB;strokeColor=#788AA3;fontColor=#46495D;rounded=1;" vertex="1" parent="1">
@@ -774,49 +764,28 @@
         <mxCell id="yQ1eZP5P_Z0Rtkw1ZunJ-294" value="查询忽略段表" style="whiteSpace=wrap;html=1;rounded=1;labelBackgroundColor=none;fillColor=#B2C9AB;strokeColor=#788AA3;fontColor=#46495D;fontSize=13;fontStyle=0;" vertex="1" parent="1">
           <mxGeometry x="670" y="1274" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="yQ1eZP5P_Z0Rtkw1ZunJ-316" value="1（主线）" style="edgeStyle=elbowEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;elbow=vertical;html=1;fontSize=13;" edge="1" parent="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1079" y="1429" as="sourcePoint" />
-            <mxPoint x="1079" y="1339" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="yQ1eZP5P_Z0Rtkw1ZunJ-319" value="2（单喇叭）" style="edgeStyle=elbowEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;elbow=horizontal;html=1;fontSize=13;" edge="1" parent="1" source="yQ1eZP5P_Z0Rtkw1ZunJ-313" target="yQ1eZP5P_Z0Rtkw1ZunJ-318">
+        <mxCell id="yQ1eZP5P_Z0Rtkw1ZunJ-333" value="3(其他)" style="edgeStyle=elbowEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;elbow=vertical;html=1;" edge="1" parent="1" source="yQ1eZP5P_Z0Rtkw1ZunJ-313" target="yQ1eZP5P_Z0Rtkw1ZunJ-332">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="yQ1eZP5P_Z0Rtkw1ZunJ-321" value="" style="edgeStyle=elbowEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;elbow=vertical;html=1;fontSize=13;" edge="1" parent="1" source="yQ1eZP5P_Z0Rtkw1ZunJ-313" target="yQ1eZP5P_Z0Rtkw1ZunJ-320">
+        <mxCell id="yQ1eZP5P_Z0Rtkw1ZunJ-335" value="" style="edgeStyle=elbowEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;elbow=vertical;html=1;" edge="1" parent="1" source="yQ1eZP5P_Z0Rtkw1ZunJ-313" target="yQ1eZP5P_Z0Rtkw1ZunJ-334">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="yQ1eZP5P_Z0Rtkw1ZunJ-322" value="3（其他）" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];rounded=1;fontSize=13;" vertex="1" connectable="0" parent="yQ1eZP5P_Z0Rtkw1ZunJ-321">
-          <mxGeometry x="-0.1939" y="-1" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="yQ1eZP5P_Z0Rtkw1ZunJ-326" style="edgeStyle=elbowEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;elbow=vertical;html=1;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=13;" edge="1" parent="1" source="yQ1eZP5P_Z0Rtkw1ZunJ-313" target="yQ1eZP5P_Z0Rtkw1ZunJ-325">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="1210" y="1400" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="yQ1eZP5P_Z0Rtkw1ZunJ-327" value="查询路线的类型" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];rounded=1;fontSize=13;" vertex="1" connectable="0" parent="yQ1eZP5P_Z0Rtkw1ZunJ-326">
-          <mxGeometry x="-0.1982" y="-3" relative="1" as="geometry">
+        <mxCell id="yQ1eZP5P_Z0Rtkw1ZunJ-336" value="1（主线）/2（单喇叭）" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];rounded=1;" vertex="1" connectable="0" parent="yQ1eZP5P_Z0Rtkw1ZunJ-335">
+          <mxGeometry x="-0.2825" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="yQ1eZP5P_Z0Rtkw1ZunJ-313" value="判断路线类型" style="rhombus;whiteSpace=wrap;html=1;fontSize=13;fillColor=#B2C9AB;strokeColor=#788AA3;fontColor=#46495D;rounded=1;labelBackgroundColor=none;fontStyle=1;" vertex="1" parent="1">
           <mxGeometry x="1000" y="1429" width="160" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="yQ1eZP5P_Z0Rtkw1ZunJ-315" value="通过主线查找关系/忽略段" style="whiteSpace=wrap;html=1;fontSize=13;fillColor=#B2C9AB;strokeColor=#788AA3;fontColor=#46495D;rounded=1;labelBackgroundColor=none;fontStyle=1;" vertex="1" parent="1">
-          <mxGeometry x="1020" y="1279" width="120" height="60" as="geometry" />
-        </mxCell>
         <mxCell id="yQ1eZP5P_Z0Rtkw1ZunJ-318" value="通过匝道查询关系/忽略段" style="whiteSpace=wrap;html=1;fontSize=13;fillColor=#B2C9AB;strokeColor=#788AA3;fontColor=#46495D;rounded=1;labelBackgroundColor=none;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="1100" y="1330" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yQ1eZP5P_Z0Rtkw1ZunJ-332" value="直接返回，不查互通忽略段/路线忽略段" style="whiteSpace=wrap;html=1;fontSize=13;fillColor=#B2C9AB;strokeColor=#788AA3;fontColor=#46495D;rounded=1;labelBackgroundColor=none;fontStyle=1;" vertex="1" parent="1">
           <mxGeometry x="1260" y="1439" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="yQ1eZP5P_Z0Rtkw1ZunJ-320" value="不查询直接返回空" style="whiteSpace=wrap;html=1;fontSize=13;fillColor=#B2C9AB;strokeColor=#788AA3;fontColor=#46495D;rounded=1;labelBackgroundColor=none;fontStyle=1;" vertex="1" parent="1">
+        <mxCell id="yQ1eZP5P_Z0Rtkw1ZunJ-334" value="通过组合查询互通忽略段/路线忽略段" style="whiteSpace=wrap;html=1;fontSize=13;fillColor=#B2C9AB;strokeColor=#788AA3;fontColor=#46495D;rounded=1;labelBackgroundColor=none;fontStyle=1;" vertex="1" parent="1">
           <mxGeometry x="1020" y="1599" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="yQ1eZP5P_Z0Rtkw1ZunJ-325" value="路线类型保存到route表中" style="whiteSpace=wrap;html=1;rounded=1;labelBackgroundColor=none;fillColor=#B2C9AB;strokeColor=#788AA3;fontColor=#46495D;fontSize=13;fontStyle=0;" vertex="1" parent="1">
-          <mxGeometry x="1290" y="1090" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
