@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36" version="26.2.13">
   <diagram name="第 1 页" id="ofV6gsF028yok2CgW0QX">
-    <mxGraphModel dx="3723" dy="1898" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3352" dy="1882" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -279,12 +279,6 @@
             <mxPoint x="130" y="370" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="mDRF8278MDf5MgQLR0Ej-110" value="一、关系表更新条件？&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;（删除旧关系，存入新关系 |&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;删除所有互通模型&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;）&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;1、路线批量上传（后端：通过创建接口判断&amp;nbsp; ）&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;2、修改互通类型字段，（后端：调用接口时，修改route.&lt;span style=&quot;text-wrap-mode: wrap; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;route_joint_type&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;）&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;3、设计路基路面（后端： 通过接口更新接口判断）&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;labelBackgroundColor=none;fontColor=#46495D;rounded=1;" parent="1" vertex="1">
-          <mxGeometry x="-670" y="380" width="440" height="90" as="geometry" />
-        </mxCell>
-        <mxCell id="yQ1eZP5P_Z0Rtkw1ZunJ-1" value="接口定义：&lt;div&gt;1、路线接口创建/修改/获取；&lt;/div&gt;&lt;div&gt;2、道路接口修改/获取；&lt;/div&gt;&lt;div&gt;3、连接部获取列表接口；&lt;/div&gt;&lt;div&gt;4、全量创建连接部接口；&lt;/div&gt;&lt;div&gt;5、路基路面建模接口；&lt;/div&gt;&lt;div&gt;6、获取路基路面建模参数接口&lt;/div&gt;&lt;div&gt;7、一键建模接口；&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;fillColor=none;strokeColor=none;labelBackgroundColor=none;fontColor=#46495D;" vertex="1" parent="1">
-          <mxGeometry x="-700" y="510" width="260" height="170" as="geometry" />
-        </mxCell>
         <mxCell id="yQ1eZP5P_Z0Rtkw1ZunJ-262" value="CRUD" style="edgeStyle=elbowEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;elbow=horizontal;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontColor=none;noLabel=1;fontSize=12;fontStyle=0" edge="1" parent="1" source="yQ1eZP5P_Z0Rtkw1ZunJ-2" target="yQ1eZP5P_Z0Rtkw1ZunJ-5">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
@@ -293,7 +287,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="yQ1eZP5P_Z0Rtkw1ZunJ-2" value="导入路线" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#B2C9AB;strokeColor=#788AA3;fontColor=#46495D;fontSize=12;fontStyle=0;" vertex="1" parent="1">
+        <mxCell id="yQ1eZP5P_Z0Rtkw1ZunJ-2" value="导入路线&lt;div&gt;（1-1）&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#B2C9AB;strokeColor=#788AA3;fontColor=#46495D;fontSize=12;fontStyle=0;" vertex="1" parent="1">
           <mxGeometry x="247.24" y="420" width="120" height="70" as="geometry" />
         </mxCell>
         <mxCell id="yQ1eZP5P_Z0Rtkw1ZunJ-268" value="" style="edgeStyle=elbowEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;elbow=vertical;html=1;fontSize=12;fontStyle=0" edge="1" parent="1" source="yQ1eZP5P_Z0Rtkw1ZunJ-5" target="yQ1eZP5P_Z0Rtkw1ZunJ-261">
@@ -377,21 +371,16 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="yQ1eZP5P_Z0Rtkw1ZunJ-71" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;dashed=1;dashPattern=8 8;labelBackgroundColor=none;strokeColor=#b85450;fontColor=default;fontSize=12;fontStyle=0;fillColor=#f8cecc;" edge="1" parent="1" source="yQ1eZP5P_Z0Rtkw1ZunJ-45">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="523.94" y="900" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="yQ1eZP5P_Z0Rtkw1ZunJ-72" value="回写失败状态（2）" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=none;fontColor=#46495D;fontSize=12;fontStyle=0;rounded=1;" vertex="1" connectable="0" parent="yQ1eZP5P_Z0Rtkw1ZunJ-71">
-          <mxGeometry x="0.2665" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="yQ1eZP5P_Z0Rtkw1ZunJ-45" value="组装所有参数&lt;div&gt;创建新关系&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;labelBackgroundColor=none;fillColor=#B2C9AB;strokeColor=#788AA3;fontColor=#46495D;fontSize=12;fontStyle=0;" vertex="1" parent="1">
           <mxGeometry x="583.94" y="1000" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="yQ1eZP5P_Z0Rtkw1ZunJ-64" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=none;strokeColor=#788AA3;fontColor=default;fontSize=12;fontStyle=0;" edge="1" parent="1" source="yQ1eZP5P_Z0Rtkw1ZunJ-48" target="yQ1eZP5P_Z0Rtkw1ZunJ-63">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="644" y="1220" />
+              <mxPoint x="644" y="1220" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="yQ1eZP5P_Z0Rtkw1ZunJ-138" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#b85450;fontColor=#46495D;fillColor=#f8cecc;dashed=1;dashPattern=8 8;fontSize=12;fontStyle=0;" edge="1" parent="1" source="yQ1eZP5P_Z0Rtkw1ZunJ-48" target="yQ1eZP5P_Z0Rtkw1ZunJ-37">
           <mxGeometry relative="1" as="geometry">
@@ -507,7 +496,7 @@
         <mxCell id="yQ1eZP5P_Z0Rtkw1ZunJ-122" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#788AA3;fontColor=#46495D;fillColor=#B2C9AB;fontSize=12;fontStyle=0;" edge="1" parent="1" source="yQ1eZP5P_Z0Rtkw1ZunJ-101" target="yQ1eZP5P_Z0Rtkw1ZunJ-121">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="yQ1eZP5P_Z0Rtkw1ZunJ-101" value="路基路面建模" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#B2C9AB;strokeColor=#788AA3;fontColor=#46495D;fontSize=12;fontStyle=0;" vertex="1" parent="1">
+        <mxCell id="yQ1eZP5P_Z0Rtkw1ZunJ-101" value="路基路面建模（1-2）" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#B2C9AB;strokeColor=#788AA3;fontColor=#46495D;fontSize=12;fontStyle=0;" vertex="1" parent="1">
           <mxGeometry x="418.94" y="430" width="450" height="40" as="geometry" />
         </mxCell>
         <mxCell id="yQ1eZP5P_Z0Rtkw1ZunJ-119" value="完成" style="ellipse;whiteSpace=wrap;html=1;fillColor=#B2C9AB;strokeColor=#788AA3;fontColor=#46495D;rounded=1;labelBackgroundColor=none;fontSize=12;fontStyle=0;" vertex="1" parent="1">
@@ -533,15 +522,18 @@
             <mxPoint x="1640" y="680" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="yQ1eZP5P_Z0Rtkw1ZunJ-167" value="开始" style="ellipse;whiteSpace=wrap;html=1;fillColor=#B2C9AB;strokeColor=#788AA3;fontColor=#46495D;rounded=1;labelBackgroundColor=none;fontSize=14;fontStyle=1;" vertex="1" parent="1">
-          <mxGeometry x="1600" y="705" width="80" height="80" as="geometry" />
+        <mxCell id="yQ1eZP5P_Z0Rtkw1ZunJ-295" style="edgeStyle=elbowEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;elbow=vertical;html=1;" edge="1" parent="1" source="yQ1eZP5P_Z0Rtkw1ZunJ-167" target="yQ1eZP5P_Z0Rtkw1ZunJ-294">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="yQ1eZP5P_Z0Rtkw1ZunJ-190" value="查询路的忽略段" style="edgeStyle=elbowEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;elbow=vertical;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="yQ1eZP5P_Z0Rtkw1ZunJ-167" target="yQ1eZP5P_Z0Rtkw1ZunJ-188">
+        <mxCell id="yQ1eZP5P_Z0Rtkw1ZunJ-167" value="开始" style="ellipse;whiteSpace=wrap;html=1;fillColor=#B2C9AB;strokeColor=#788AA3;fontColor=#46495D;rounded=1;labelBackgroundColor=none;fontSize=14;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="1600" y="670" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="yQ1eZP5P_Z0Rtkw1ZunJ-190" value="查询路的忽略段" style="edgeStyle=elbowEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;elbow=vertical;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="yQ1eZP5P_Z0Rtkw1ZunJ-294" target="yQ1eZP5P_Z0Rtkw1ZunJ-188">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="1730" y="790" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="yQ1eZP5P_Z0Rtkw1ZunJ-192" value="" style="edgeStyle=elbowEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;elbow=vertical;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="yQ1eZP5P_Z0Rtkw1ZunJ-167" target="yQ1eZP5P_Z0Rtkw1ZunJ-191">
+        <mxCell id="yQ1eZP5P_Z0Rtkw1ZunJ-192" value="" style="edgeStyle=elbowEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;elbow=vertical;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="yQ1eZP5P_Z0Rtkw1ZunJ-294" target="yQ1eZP5P_Z0Rtkw1ZunJ-191">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="1640" y="880" as="sourcePoint" />
           </mxGeometry>
@@ -749,6 +741,18 @@
         </mxCell>
         <mxCell id="yQ1eZP5P_Z0Rtkw1ZunJ-274" value="逻辑复用旧建模的" style="whiteSpace=wrap;html=1;fontSize=14;fillColor=#B2C9AB;strokeColor=#788AA3;fontColor=#46495D;rounded=1;labelBackgroundColor=none;fontStyle=1;" vertex="1" parent="1">
           <mxGeometry x="1710" y="1405" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yQ1eZP5P_Z0Rtkw1ZunJ-291" value="&lt;font style=&quot;color: rgb(0, 0, 51);&quot;&gt;接口定义：&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;color: rgb(0, 0, 51);&quot;&gt;1、路线接口创建/修改/获取（修改）；&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;color: rgb(0, 0, 51);&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;创建：修改option表中的关系状态&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;color: rgb(0, 0, 51);&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;修改：按照规则修改&lt;span style=&quot;background-color: transparent;&quot;&gt;option表中的关系状态&lt;/span&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;color: rgb(0, 0, 51);&quot;&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;获取：添加路线包/互通类型字段&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;color: rgb(0, 0, 51);&quot;&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;color: rgb(0, 0, 51);&quot;&gt;2、道路接口修改/获取；（修改）&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;color: rgb(0, 0, 51);&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;修改：&lt;span style=&quot;background-color: transparent;&quot;&gt;按照规则修改&lt;/span&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;option表中的关系状态&lt;/span&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;color: rgb(0, 0, 51);&quot;&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;获取：&lt;/span&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;添加路线包/互通类型字段&lt;/span&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;color: rgb(0, 0, 51);&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;color: rgb(0, 0, 51);&quot;&gt;3、连接部获取列表接口；（新增）&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;color: rgb(0, 0, 51);&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;color: rgb(0, 0, 51);&quot;&gt;4、全量创建连接部接口；（删除）&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;color: rgb(0, 0, 51);&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;color: rgb(0, 0, 51);&quot;&gt;5、路基路面建模接口；（修改）&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;color: rgb(0, 0, 51);&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;修改就建模逻辑（见流程图1-2）&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;color: rgb(0, 0, 51);&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;color: rgb(0, 0, 51);&quot;&gt;&lt;font style=&quot;color: rgb(0, 0, 51);&quot;&gt;6、获取路基路面建模参数接口 (修改)&lt;/font&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;color: rgb(0, 0, 51);&quot;&gt;&lt;font style=&quot;color: rgb(0, 0, 51);&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;就接口改造，按照新的dll接口进行补充&lt;br&gt;&lt;/font&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;color: rgb(0, 0, 51);&quot;&gt;&lt;font style=&quot;color: rgb(0, 0, 51);&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;color: rgb(0, 0, 51);&quot;&gt;7、一键建模接口；（修改）&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;color: rgb(0, 0, 51);&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;修改路基路面的建模逻辑，复用（5）的建模逻辑&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;color: rgb(0, 0, 51);&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;color: rgb(0, 0, 51);&quot;&gt;8、桥梁/隧道建模的建模参数接口（修改）&lt;/font&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;fillColor=none;strokeColor=none;labelBackgroundColor=none;fontColor=#46495D;" vertex="1" parent="1">
+          <mxGeometry x="-550" y="350" width="370" height="410" as="geometry" />
+        </mxCell>
+        <mxCell id="yQ1eZP5P_Z0Rtkw1ZunJ-292" value="方案：&lt;div&gt;1、涉及到路线/道路中的非名字修改，全部修改关系状态为失效；&lt;/div&gt;&lt;div&gt;2、路线建模按照现有逻辑不动；&lt;/div&gt;&lt;div&gt;3、道路建模按照新接口对接；&lt;/div&gt;&lt;div&gt;4、隧道、桥梁修改传入的建模参数；&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;=======================&lt;/div&gt;&lt;div&gt;连接部门 -&amp;gt; 修改表头?&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;fillColor=none;strokeColor=none;labelBackgroundColor=none;fontColor=#46495D;" vertex="1" parent="1">
+          <mxGeometry x="-550" y="875" width="260" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="yQ1eZP5P_Z0Rtkw1ZunJ-293" value="一、关系表更新条件？&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;（删除旧关系，存入新关系 |&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;删除所有互通模型&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;）&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;1、路线批量上传（后端：通过创建接口判断&amp;nbsp; ）&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;2、修改互通类型字段，（后端：调用接口时，修改route.&lt;span style=&quot;text-wrap-mode: wrap; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;route_joint_type&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;）&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;3、设计路基路面（后端： 通过接口更新接口判断）&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;labelBackgroundColor=none;fontColor=#46495D;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="-950" y="160" width="440" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="yQ1eZP5P_Z0Rtkw1ZunJ-294" value="查询忽略段表" style="whiteSpace=wrap;html=1;rounded=1;labelBackgroundColor=none;fillColor=#B2C9AB;strokeColor=#788AA3;fontColor=#46495D;fontSize=12;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry x="1580" y="775" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
