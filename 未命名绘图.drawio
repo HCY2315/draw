@@ -314,7 +314,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="yQ1eZP5P_Z0Rtkw1ZunJ-22" value="写入路基路面表" style="whiteSpace=wrap;html=1;rounded=1;labelBackgroundColor=none;fillColor=#B2C9AB;strokeColor=#788AA3;fontColor=#46495D;fontSize=12;fontStyle=0;" vertex="1" parent="1">
-          <mxGeometry x="248.24" y="755" width="120" height="60" as="geometry" />
+          <mxGeometry x="247.25" y="750" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="yQ1eZP5P_Z0Rtkw1ZunJ-30" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=none;strokeColor=#788AA3;fontColor=default;fontSize=12;fontStyle=0;" edge="1" parent="1" source="yQ1eZP5P_Z0Rtkw1ZunJ-28" target="yQ1eZP5P_Z0Rtkw1ZunJ-29">
           <mxGeometry relative="1" as="geometry" />
