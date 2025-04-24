@@ -73,7 +73,7 @@
             <mxRectangle width="30" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="bJjAPZ4wV9YNr2IPAR01-7" value="main_route_id" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;whiteSpace=wrap;html=1;labelBackgroundColor=none;strokeColor=#788AA3;fontColor=#46495D;rounded=1;" parent="bJjAPZ4wV9YNr2IPAR01-5" vertex="1">
+        <mxCell id="bJjAPZ4wV9YNr2IPAR01-7" value="mainId" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;whiteSpace=wrap;html=1;labelBackgroundColor=none;strokeColor=#788AA3;fontColor=#46495D;rounded=1;" parent="bJjAPZ4wV9YNr2IPAR01-5" vertex="1">
           <mxGeometry x="30" width="170" height="30" as="geometry">
             <mxRectangle width="170" height="30" as="alternateBounds" />
           </mxGeometry>
@@ -86,7 +86,7 @@
             <mxRectangle width="30" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="bJjAPZ4wV9YNr2IPAR01-13" value="ramp_route_id" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;whiteSpace=wrap;html=1;labelBackgroundColor=none;strokeColor=#788AA3;fontColor=#46495D;rounded=1;" parent="bJjAPZ4wV9YNr2IPAR01-11" vertex="1">
+        <mxCell id="bJjAPZ4wV9YNr2IPAR01-13" value="rampId" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;whiteSpace=wrap;html=1;labelBackgroundColor=none;strokeColor=#788AA3;fontColor=#46495D;rounded=1;" parent="bJjAPZ4wV9YNr2IPAR01-11" vertex="1">
           <mxGeometry x="30" width="170" height="30" as="geometry">
             <mxRectangle width="170" height="30" as="alternateBounds" />
           </mxGeometry>
@@ -99,7 +99,7 @@
             <mxRectangle width="30" height="25" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="mDRF8278MDf5MgQLR0Ej-9" value="road_joint_type" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;whiteSpace=wrap;html=1;labelBackgroundColor=none;strokeColor=#788AA3;fontColor=#46495D;rounded=1;" parent="mDRF8278MDf5MgQLR0Ej-7" vertex="1">
+        <mxCell id="mDRF8278MDf5MgQLR0Ej-9" value="roadJointType" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;whiteSpace=wrap;html=1;labelBackgroundColor=none;strokeColor=#788AA3;fontColor=#46495D;rounded=1;" parent="mDRF8278MDf5MgQLR0Ej-7" vertex="1">
           <mxGeometry x="30" width="170" height="25" as="geometry">
             <mxRectangle width="170" height="25" as="alternateBounds" />
           </mxGeometry>
