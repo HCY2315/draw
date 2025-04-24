@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36" version="26.2.13">
   <diagram name="第 1 页" id="ofV6gsF028yok2CgW0QX">
-    <mxGraphModel dx="3723" dy="1898" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3501" dy="1768" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -659,18 +659,6 @@
             <Array as="points">
               <mxPoint x="1490" y="795" />
             </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="yQ1eZP5P_Z0Rtkw1ZunJ-287" style="edgeStyle=elbowEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;elbow=vertical;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fillColor=#f8cecc;strokeColor=#b85450;dashed=1;dashPattern=8 8;fontSize=12;fontStyle=0" edge="1" parent="1" source="yQ1eZP5P_Z0Rtkw1ZunJ-228" target="yQ1eZP5P_Z0Rtkw1ZunJ-48">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="1730" y="1190" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="yQ1eZP5P_Z0Rtkw1ZunJ-288" value="修改建模状态&lt;div&gt;（数据更新）&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];rounded=1;labelBackgroundColor=none;fontSize=12;fontStyle=0" vertex="1" connectable="0" parent="yQ1eZP5P_Z0Rtkw1ZunJ-287">
-          <mxGeometry x="-0.4668" y="-2" relative="1" as="geometry">
-            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="yQ1eZP5P_Z0Rtkw1ZunJ-323" value="" style="edgeStyle=elbowEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;elbow=vertical;html=1;" edge="1" parent="1" source="yQ1eZP5P_Z0Rtkw1ZunJ-228" target="yQ1eZP5P_Z0Rtkw1ZunJ-243">
