@@ -778,9 +778,6 @@
         <mxCell id="yQ1eZP5P_Z0Rtkw1ZunJ-313" value="判断路线类型" style="rhombus;whiteSpace=wrap;html=1;fontSize=13;fillColor=#B2C9AB;strokeColor=#788AA3;fontColor=#46495D;rounded=1;labelBackgroundColor=none;fontStyle=1;" vertex="1" parent="1">
           <mxGeometry x="1000" y="1429" width="160" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="yQ1eZP5P_Z0Rtkw1ZunJ-318" value="通过匝道查询关系/忽略段" style="whiteSpace=wrap;html=1;fontSize=13;fillColor=#B2C9AB;strokeColor=#788AA3;fontColor=#46495D;rounded=1;labelBackgroundColor=none;fontStyle=1;" vertex="1" parent="1">
-          <mxGeometry x="1100" y="1330" width="120" height="60" as="geometry" />
-        </mxCell>
         <mxCell id="yQ1eZP5P_Z0Rtkw1ZunJ-332" value="直接返回，不查互通忽略段/路线忽略段" style="whiteSpace=wrap;html=1;fontSize=13;fillColor=#B2C9AB;strokeColor=#788AA3;fontColor=#46495D;rounded=1;labelBackgroundColor=none;fontStyle=1;" vertex="1" parent="1">
           <mxGeometry x="1260" y="1439" width="120" height="60" as="geometry" />
         </mxCell>
